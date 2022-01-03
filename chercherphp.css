@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('football.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+table{
+    background-color: white;
+    width: 80%;
+}
+
+h1{
+    -webkit-text-stroke:0.5px white ;
+    text-shadow: 2px 2px 5px rgb(99, 96, 96);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(111, 145, 43);
+    padding-bottom: 20px;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+}
+
+tr{
+    border: 2px solid black;
+    background-color: white;
+}
+
+th{
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+
+h3{
+    background-color: rgba(255, 255, 255, 0.63);
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    height: 20vh;
+    width: 60%;
+    border-radius: 20px;
+    line-height: 20vh;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 13px;
+    border:1px solid black;
+    font-weight: bold;
+    background-color: rgb(111, 145, 43);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 30px;
+
+}
+
+a:hover{
+    background-color: rgb(94, 131, 19);
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un joueur a partir d'un formulaire</title>
+    <link rel="stylesheet" href="ajouterBD.css">
+</head>
+<body>
+    <form action="ajouterBD.php" method="post">
+    <div>
+        <h1>Ajouter un joueur a partir d'un formulaire</h1>
+        <table>
+            <tr><td class="titre">Num : </td><td><input class="input" type="text" placeholder="saisir le numero du joueur " name="num" ></td></tr>
+            <tr><td class="titre">Poste : </td><td><input class="input" type="text" placeholder="saisir le poste du joueur " name="poste"></td></tr>
+            <tr><td class="titre">Nom : </td><td><input class="input" type="text" placeholder="saisir le nom du joueur " name="nom"></td></tr>
+            <tr><td class="titre">Age : </td><td><input class="input" type="text" placeholder="saisir le nom du joueur " name="age"></td></tr>
+            <tr><td class="titre">Selection : </td><td><input class="input" type="text" placeholder="saisir le nombre des selections du joueur " name="selec"></td></tr>
+            <tr><td class="titre">Buts : </td><td><input class="input" type="text" placeholder="saisir le nombre des buts du joueur " name="buts"></td></tr>
+            <tr><td class="titre">Club : </td><td><input class="input" type="text" placeholder="saisir le club du joueur " name="club"></td></tr>
+            <tr><td class="titre">Annee : </td><td><input class="input" type="text" placeholder="saisir l'annee d'entrer du joueur " name="annee"></td></tr>
+        </table>
+        <section>
+            <button>Ajouter</button>
+            <a href="page1.html" target="_self">Annuler</a>
+        </section>
+    </div>
+    </form>
+</body>
+</html>

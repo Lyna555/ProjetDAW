@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouver des joueurs selon des criteres</title>
+    <link rel="stylesheet" href="chercher.css">
+</head>
+
+<body>
+    <form action="chercher.php" method="post">
+        <div>
+            <h1>Trouver des joueurs selon des criteres</h1>
+            </section>
+            <section id="sec">
+                <section>
+                    <select name="select">
+                        <option selected value="num">Numero</option>
+                        <option value="poste">Poste</option>
+                        <option value="nom">Nom</option>
+                        <option value="age">Age</option>
+                        <option value="selec">Selection</option>
+                        <option value="buts">Buts</option>
+                        <option value="club">Club</option>
+                        <option value="annee">Annee</option>
+                    </select>
+                    <input id="input1" type="text" name="chercher" placeholder="Entrez votre recherche..">
+                </section>
+                <section>
+                    <Button>Chercher</Button>
+                    <a href="page1.html" target="_self">Annuler</a>
+                </section>
+        </div>
+    </form>
+</body>
+
+</html>

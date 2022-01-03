@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('football.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+h3{
+    background-color: rgba(255, 255, 255, 0.63);
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    height: 20vh;
+    width: 60%;
+    border-radius: 20px;
+    line-height: 20vh;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-size: 13px;
+    border:1px solid black;
+    font-weight: bold;
+    background-color: rgb(111, 145, 43);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 30px;
+
+}
+
+a:hover{
+    background-color: rgb(94, 131, 19);
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('football.jpg') center no-repeat;
+    background-size: cover;
+}
+
+div{
+    min-height: 70vh;
+    border: 1px solid black;
+    backdrop-filter: blur(8px);
+    margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    border-radius: 20px;
+    gap: 10px;
+    box-shadow: 5px 5px 20px white;
+    animation: exemple 1s ease-in 0s 1 alternate;
+}
+
+@keyframes exemple{
+    from{
+        transform: scale(0.3);
+    }
+    to{
+        transform: scale(1.0);
+    }
+}
+
+
+
+h1{
+    -webkit-text-stroke:0.9px white ;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(111, 145, 43);
+    padding-bottom: 20px;
+}
+
+button{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(111, 145, 43);;
+    color: white;
+}
+
